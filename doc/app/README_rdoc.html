@@ -51,6 +51,18 @@
   </div>
 
   
+<div class="nav-section">
+  <h3>Table of Contents</h3>
+
+  <ul class="link-list" role="directory">
+    <li><a href="#label-Rails+Blog">Rails Blog</a>
+    <li><a href="#label-Details">Details</a>
+    <li><a href="#label-Version+Information">Version Information</a>
+    <li><a href="#label-Dependencies">Dependencies</a>
+    <li><a href="#label-Credits">Credits</a>
+  </ul>
+</div>
+
 
   <div id="project-metadata">
     <div id="fileindex-section" class="nav-section">
@@ -68,34 +80,46 @@
 
 <main role="main" aria-label="Page README.rdoc">
 
-<h2 id="label-README"><a href="README_rdoc.html">README</a><span><a href="#label-README">&para;</a> <a href="#top">&uarr;</a></span></h2>
+<h1 id="label-Rails+Blog">Rails Blog<span><a href="#label-Rails+Blog">&para;</a> <a href="#top">&uarr;</a></span></h1>
 
-<p>This <a href="README_rdoc.html">README</a> would normally document whatever
-steps are necessary to get the application up and running.</p>
+<p>This project is a learning tool to help me learn Ruby on Rails.</p>
 
-<p>Things you may want to cover:</p>
+<h2 id="label-Details">Details<span><a href="#label-Details">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>The application contains two models, <a href="Article.html">Article</a> and
+<a href="Comment.html">Comment</a>, with corresponding controllers.</p>
+
+<p>The app allows for the creation of an article, which has a title and body
+text. Once an article has been created, it can be shown, edited, or
+deleted. Comments can be added to any existing article. A comment consists
+of the name of the commenter and the comment text.</p>
+
+<p>Only specific users can edit and delete articles as well as delete comments
+from articles. When creating articles and comments, the length of the title
+must be at least 5 characters long.</p>
+
+<p>Partials are used to prevent duplication of code in different views. The
+most common partial creates a form to create and update articles and
+comments.</p>
+
+<h2 id="label-Version+Information">Version Information<span><a href="#label-Version+Information">&para;</a> <a href="#top">&uarr;</a></span></h2>
 <ul><li>
-<p>Ruby version</p>
+<p>Ruby version: 2.2.0</p>
 </li><li>
-<p>System dependencies</p>
-</li><li>
-<p>Configuration</p>
-</li><li>
-<p>Database creation</p>
-</li><li>
-<p>Database initialization</p>
-</li><li>
-<p>How to run the test suite</p>
-</li><li>
-<p>Services (job queues, cache servers, search engines, etc.)</p>
-</li><li>
-<p>Deployment instructions</p>
-</li><li>
-<p>…</p>
+<p>Rails version: 4.2.0</p>
 </li></ul>
 
-<p>Please feel free to use a different markup language if you do not plan to
-run <code>rake doc:app</code>.</p>
+<h2 id="label-Dependencies">Dependencies<span><a href="#label-Dependencies">&para;</a> <a href="#top">&uarr;</a></span></h2>
+<ul><li>
+<p>ruby</p>
+</li><li>
+<p>nodejs</p>
+</li></ul>
+
+<h2 id="label-Credits">Credits<span><a href="#label-Credits">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Getting Started with Rails (<a
+href="http://guides.rubyonrails.org/getting_started.html">guides.rubyonrails.org/getting_started.html</a>)</p>
 </main>
 
 
