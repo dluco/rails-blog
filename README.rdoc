@@ -1,8 +1,8 @@
-== Rails Blog
+= Rails Blog
 
 This project is a learning tool to help me learn Ruby on Rails.
 
--- Details
+== Details
 
 The application contains two models, Article and Comment, with corresponding controllers.
 
@@ -12,16 +12,16 @@ Only specific users can edit and delete articles as well as delete comments from
 
 Partials are used to prevent duplication of code in different views. The most common partial creates a form to create and update articles and comments.
 
--- Version Information
+== Version Information
 
 Ruby version: 2.2.0
 Rails version: 4.2.0
 
--- Dependencies
+== Dependencies
 
 ruby
 nodejs
 
--- Credits
+== Credits
 
 Getting Started with Rails (http://guides.rubyonrails.org/getting_started.html)
