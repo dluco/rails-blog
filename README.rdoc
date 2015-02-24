@@ -1,28 +1,27 @@
-== README
+== Rails Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a learning tool to help me learn Ruby on Rails.
 
-Things you may want to cover:
+-- Details
 
-* Ruby version
+The application contains two models, Article and Comment, with corresponding controllers.
 
-* System dependencies
+The app allows for the creation of an article, which has a title and body text. Once an article has been created, it can be shown, edited, or deleted. Comments can be added to any existing article. A comment consists of the name of the commenter and the comment text.
 
-* Configuration
+Only specific users can edit and delete articles as well as delete comments from articles. When creating articles and comments, the length of the title must be at least 5 characters long.
 
-* Database creation
+Partials are used to prevent duplication of code in different views. The most common partial creates a form to create and update articles and comments.
 
-* Database initialization
+-- Version Information
 
-* How to run the test suite
+Ruby version: 2.2.0
+Rails version: 4.2.0
 
-* Services (job queues, cache servers, search engines, etc.)
+-- Dependencies
 
-* Deployment instructions
+ruby
+nodejs
 
-* ...
+-- Credits
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Getting Started with Rails (http://guides.rubyonrails.org/getting_started.html)
